@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GoWithSwipe — Smarter Swipes, Bigger Rewards</title>
+  <meta name="description" content="Compare credit cards, learn finance, and grow your rewards. Simple, student-friendly, and honest." />
+  <link rel="icon" href="/logo.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/"><img src="logo.svg" alt="GoWithSwipe logo" class="logo"/> <span>GoWithSwipe</span></a>
+      <nav class="nav">
+        <a href="#cards">Cards</a>
+        <a href="#learn">Learn</a>
+        <a href="#blog">Blog</a>
+        <a class="btn" href="#cards">Explore Cards</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Smarter swipes. Bigger rewards.</h1>
+          <p>Compare credit cards, learn the hacks to keep your score healthy, and make your money work without the stress.</p>
+          <div class="ctas">
+            <a class="btn" href="#cards">Explore Cards</a>
+            <a class="btn ghost" href="#learn">Start Learning</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="card-mock">
+            <div class="chip"></div>
+            <div class="card-number">**** **** **** 2451</div>
+            <div class="card-name">GoWithSwipe User</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <h2>Why GoWithSwipe</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3>Instant Comparisons</h3>
+          <p>See top cards side-by-side with simple benefit breakdowns.</p>
+        </div>
+        <div class="feature">
+          <h3>Student-Friendly</h3>
+          <p>Practical tips for earning and protecting your credit early.</p>
+        </div>
+        <div class="feature">
+          <h3>Verified Info</h3>
+          <p>We aim for clarity — no shady fine-print tricks.</p>
+        </div>
+        <div class="feature">
+          <h3>Growth Tools</h3>
+          <p>Track rewards, referrals, and simple savings nudges.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cards" class="cards container">
+      <h2>Featured Cards</h2>
+      <div class="card-grid">
+        <!-- Example card — copy/replicate for each affiliate card -->
+        <article class="card">
+          <img src="card-placeholder.png" alt="Card logo" class="card-logo"/>
+          <h3>SwipeBoost Credit</h3>
+          <p class="muted">Best for rewards on groceries & subscriptions</p>
+          <ul class="benefits">
+            <li>5% back on groceries (up to ₹5k)</li>
+            <li>₹999 annual fee waived first year</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">Apply</a>
+            <a class="link" href="#learn">Learn more</a>
+          </div>
+        </article>
+        <!-- end example -->
+      </div>
+    </section>
+
+    <section id="learn" class="learn container">
+      <h2>Start Learning</h2>
+      <div class="learn-grid">
+        <article>
+          <h4>What is a credit score?</h4>
+          <p>Clear, short explainer designed for beginners.</p>
+        </article>
+        <article>
+          <h4>Debit vs Credit</h4>
+          <p>When to use what and why it matters.</p>
+        </article>
+        <article>
+          <h4>Student strategies</h4>
+          <p>Legit ways to earn and build credit while you're studying.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="blog" class="blog container">
+      <h2>From the Blog</h2>
+      <div class="blog-grid">
+        <article class="post">
+          <h3>How to pick your first credit card</h3>
+          <p class="muted">Short, practical steps you can do tonight.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> GoWithSwipe — Built for smart swipes</div>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
